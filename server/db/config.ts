@@ -33,5 +33,4 @@ config.url =
   DB_URL ||
   config.url ||
   `${config.dialect}://${config.username}:${config.password}@${config.host}:${config.port}/${config.database}`;
-console.log('que paso?', config);
 export const url = config.url;
