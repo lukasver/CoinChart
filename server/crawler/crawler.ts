@@ -35,6 +35,7 @@ class Crawler {
   async getMarketData(options: IMarketOptions) {
     const { id, ...params } = options;
     const { data } = await this.client.coins.fetchMarketChart(id, params);
+    //TODO: curate & implement logic for custom charts
     return data;
   }
 }

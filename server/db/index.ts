@@ -1,7 +1,6 @@
 import { Sequelize } from 'sequelize';
 
 import * as config from './config';
-// import l from '../common/logger';
 
 const { DB_LOGGING = false } = process.env;
 
