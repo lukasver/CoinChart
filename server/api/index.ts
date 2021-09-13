@@ -1,7 +1,6 @@
 import express, { Application } from 'express';
 import os from 'os';
 import path from 'path';
-// import http from 'http';
 
 const app = express();
 

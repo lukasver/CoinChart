@@ -13,7 +13,7 @@
   >
     <div class="text-white">CoinChart</div>
     <div class="text-white">
-      <Icon name="avatar" class="text-white"/>
+      <Icon name="avatar"/>
     </div>
   </nav>
 </template>
