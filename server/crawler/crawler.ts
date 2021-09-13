@@ -17,7 +17,7 @@ class Crawler {
       tokensList.some((tokenB) => tokenB.id === token.id)
     );
     try {
-      const [uno, dos, tres, cuatro] = await Promise.all(
+      await Promise.all(
         tokens.map(
           async (token) =>
             await db.Price.create({
